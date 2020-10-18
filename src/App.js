@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Article from "./Article/Article";
 import DynamicArticle from "./DynamicArticle/DynamicArticle";
 import { isEmpty } from "lodash";
+import ArticleList from "./ArticleList/ArticleList";
 
 function App() {
   const [fetchedData, setFetchedData] = useState({});
@@ -25,8 +26,8 @@ function App() {
   return isEmpty(fetchedData) ? null : (
     <div className="App">
       <Switch>
-        <Route>
-          <DynamicArticle article={Object.values(fetchedData)[1]} />
+        <Route path = "/articlelist">
+          <ArticleList content={Object.values(fetchedData)} />
         </Route>
       </Switch>
     </div>
