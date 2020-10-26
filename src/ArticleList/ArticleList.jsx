@@ -9,9 +9,7 @@ const ArticleList = (props) => {
         displayContent = (
             <ul>
         {props.content.map((item) => (
-            <li key = {item.slug}>
-                <ArticleListItem article = {item}/>
-            </li>
+            <ArticleListItem article={item} key={item.slug} />
         ))}
         </ul>
         );
@@ -19,7 +17,7 @@ const ArticleList = (props) => {
         displayContent = <div>you have no data</div>;
     }
   return (
-       <div name = "Terms">{displayContent}</div>
+       <div>{displayContent}</div>
        
   );
 };
