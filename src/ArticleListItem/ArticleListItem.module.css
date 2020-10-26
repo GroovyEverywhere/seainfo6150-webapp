@@ -1,0 +1,11 @@
+.Item{
+  	background:linear-gradient(to right, #CF1818 , white);
+	background-size: 300px;
+	background-repeat:repeat-y;
+	border:2px solid red;
+	margin:30px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 0 8px 5px #666;
+	padding:15px;
+}

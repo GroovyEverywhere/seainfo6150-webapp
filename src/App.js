@@ -3,7 +3,9 @@ import { Switch, Route } from "react-router-dom";
 import Article from "./Article/Article";
 import DynamicArticle from "./DynamicArticle/DynamicArticle";
 import { isEmpty } from "lodash";
-import ArticleList from "./ArticleList/ArticleList";
+import ArticleList from "./ArticleList/ArticleList.jsx";
+import './App.css';
+
 
 function App() {
   const [fetchedData, setFetchedData] = useState({});

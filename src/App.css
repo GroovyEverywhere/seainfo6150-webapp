@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: gray;
+  border:1px dotted;
+	margin: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 7px 7px #BF2929;
 }
 
 .App-logo {
@@ -21,6 +26,17 @@
 
 .App-link {
   color: #61dafb;
+}
+.Item{
+  background:linear-gradient(to right, #CF1818 , white);
+  background-size: 300px;
+  background-repeat:repeat-y;
+  border:2px solid red;
+  margin:35px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 8px #514C4C;
+  padding:15px;
 }
 
 @keyframes App-logo-spin {
