@@ -27,7 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-.Item{
+/*.Item{
   background:linear-gradient(to right, #CF1818 , white);
   background-size: 300px;
   background-repeat:repeat-y;
@@ -38,7 +38,7 @@
   box-shadow: 0 0 10px 8px #514C4C;
   padding:15px;
 }
-
+*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
