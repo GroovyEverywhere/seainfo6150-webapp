@@ -1,11 +1,11 @@
 li{
-  	background:linear-gradient(to right, #CF1818 , white);
+  	background:linear-gradient(to right, #F44747 , white);
 	background-size: 300px;
 	background-repeat:repeat-y;
 	border:2px solid red;
-	margin:30px;
-	border-radius: 10px;
+	margin:35px;
+	border-radius: 12px;
 	background-color: white;
-	box-shadow: 0 0 8px 5px #666;
+	box-shadow: 0 0 10px 8px #514C4C;
 	padding:15px;
 }

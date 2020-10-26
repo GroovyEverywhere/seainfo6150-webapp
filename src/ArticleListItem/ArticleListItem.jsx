@@ -20,7 +20,8 @@ const ArticleListItem = (props) => {
         <div>
       <h1 style = {{color:"red"}}>{props.article.title}</h1>
 
-      <section>{props.article.shortText}</section>
+      <p>{props.article.shortText}</p>
+      
       <b>
         <time datetime = {props.article.timeStamp}> {props.article.displayDate}</time>
         </b>
