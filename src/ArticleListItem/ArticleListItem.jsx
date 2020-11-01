@@ -14,7 +14,7 @@ const ArticleListItem = (props) => {
     <li className={styles.container}>
       <article className={styles.article}>
         <div className={styles.wrapper}>
-          <h2 className={styles.title}>{props.article.title}</h2>
+        <h2 className={styles.title}>{props.article.title}</h2>
           {isTextShowing && (
             <div className={styles.text}>
               <p>{props.article.shortText}</p>
