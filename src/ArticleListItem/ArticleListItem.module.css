@@ -28,7 +28,8 @@
     font-weight: bold;
 }
 .article{
-    display: grid;
-    grid-template-rows: auto;
-    /*justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
