@@ -1,0 +1,7 @@
+.img{
+	border-radius :50%;
+	border:8px solid #CB1515;
+	width: 50%;
+    height: auto;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);;
+}
